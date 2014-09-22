@@ -1,4 +1,4 @@
-STCCOIN
+Scattercoin
 =======
 
-STCCOIN
+
