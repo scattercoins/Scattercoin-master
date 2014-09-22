@@ -1,43 +1,33 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+src/*.exe
+src/scattercoin
+src/scattercoin
+src/test_scattercoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.scattercoin
 
-# Folder config file
-Desktop.ini
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+scattercoin-qt
+scattercoin-qt.app
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Unit-tests
+Makefile.test
+scattercoin-qt_test
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Resources cpp
+qrc_*.cpp
 
-# =========================
-# Operating System Files
-# =========================
+# Qt creator
+*.pro.user
 
-# OSX
-# =========================
-
+# Mac specific
 .DS_Store
-.AppleDouble
-.LSOverride
+build
 
-# Icon must end with two \r
-Icon
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
